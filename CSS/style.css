@@ -1,0 +1,457 @@
+@import url(/fonts.css);
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.logo{
+    height: 80%;
+    width: 80%;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    z-index: 999;
+    
+}
+
+.type h1{
+    overflow: hidden;
+    border-right: .15em black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0;
+    animation: typing 3.0s steps(25, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font:normal 500 15px/2px;
+    font-family: 'Cinzel',cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: #9b2dbd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background:linear-gradient(90deg, #9b2dbd 0%,#4458dc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+
+/*---------Banner------*/
+
+
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    padding-left: 20%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3:after{
+    content:'';
+    height: 2px;
+    width: 15vw;
+    background: black;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+    padding-left: 20%;
+
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    padding-left: 20%;
+}
+
+.site-main .site-banner .site-title .site-button{
+    padding-left: 20%;
+}
+
+.site-main .site-banner .banner-img img{
+    padding: 3rem 0;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+}
+
+.site-main .site-banner .banner-img .img-fluid{
+    margin-left: 90px;
+}
+
+.title-text{
+    font:normal 50px/72px Cinzel-Regular;
+}
+
+.button{
+    padding: 0.8rem 2.2rem;
+    font:normal 16px/20px Cinzel-Regular;
+    position:relative;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background:linear-gradient(90deg, #9b2dbd 0%,#4458dc 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+   
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+.button.primary-button::after{
+    position: absolute;
+    top: -2px;bottom: -2px;
+    left: -2px;right: -2px;
+    background: #9b2dbd;
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+.button.secondary-button{
+    background:linear-gradient(90deg, #9b2dbd 0%,#4458dc 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+   
+}
+
+.button.secondary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+.button.secondary-button::after{
+    position: absolute;
+    top: -2px;bottom: -2px;
+    left: -2px;right: -2px;
+    background: #9b2dbd;
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+
+/*-------About-Me---------*/
+
+.about_area{
+    padding: 8rem 5rem;
+
+}
+
+.about_area .about-img .img-fluid{
+    border-radius: 50%;
+}
+
+.lang{
+    background:-webkit-linear-gradient(left, #9b2dbd, #4458dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    background-clip:none;
+}
+
+.about_area .about-title{
+    padding-left: 10%;
+}
+
+.about_area .about-title h2>span{
+    display: block;
+    font: normal bold 49px/60px Cinzel-Regular;
+    letter-spacing: 10px;
+}
+
+.about_area .about-title .paragraph >p{
+    padding: .3rem 0;
+    font:normal 500 15px/2px;
+    font-family: 'Cinzel',cursive;
+}
+
+/*####Skills####*/
+
+.skills{
+    padding-top: 100px;
+}
+
+.skills .container{
+    padding-left: 90px;
+}
+
+.card{
+    font:normal 500 15px/2px;
+    font-family: 'Cinzel',cursive;
+    width:80%;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(top, #4458dc,#9b2dbd);
+    height: 300px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content:space-evenly;
+    cursor: default;
+}
+
+.card .circle{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card .circle .box,
+.card .circle .box span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transition: all 0.1s;
+}
+
+.card .circle .box{
+    height: 90%;
+    width: 90%;
+    background: -webkit-linear-gradient(left, #4458dc,#9b2dbd);
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+.card .circle .box span{
+    font-size: 35px;
+    font-weight: 500;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    background-clip:none;
+    }
+
+.card .circle:hover .box{
+    transform: translate(-50%,-50%) scale(1.07);
+}
+
+.card .circle:hover .box span{
+    transform: translate(-45%,-50%) scale(1.09);
+}
+
+.card .text{
+    font-size: 20px;
+    font-weight: 600;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    background-clip:none;
+   
+}
+
+/*################# Contact Area ###########*/
+
+.contact_area .contact{
+    font:normal 600 15px/2px;
+    font-family: 'Cinzel',cursive;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.contact_area .text-title{
+    background:-webkit-linear-gradient(left, #9b2dbd, #4458dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    background-clip:none;
+}
+
+.contact_area{
+    padding-top: 50px;
+}
+
+.cont-sec{
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+.cont-text{
+    padding-top: 80px;
+}
+
+.cont-text .text{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.form-control{
+    display: block;
+    
+}
+
+.cont-text .icon > span{
+    background:linear-gradient( #9b2dbd, #4458dc);
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 22px;
+    width: 42px;
+    height: 42px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+
+.form-group{
+    position: relative;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; }
+
+.contact_area .contact-form{
+    border-radius: 10px;
+}
+
+.contact_area .contact-form .form-group{
+    padding-top: 15px;
+}
+
+.button.send-button{
+    background:linear-gradient(90deg, #9b2dbd 0%,#4458dc 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    border-radius: 5px;
+   
+}
+
+.button.send-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+
+/*####### Counter-section ######*/
+.counter
+{
+    text-align: center;
+    padding-top: 50px;
+    font:normal 500 15px/2px;
+    font-family: 'Cinzel',cursive;
+}
+.tea,.paper,.exp,.certi
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    background:linear-gradient( #9b2dbd, #4458dc);
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.num{
+    padding-top: 5px;
+    font-size: 30px;
+    background:-webkit-linear-gradient(left, #9b2dbd, #4458dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    background-clip:none;
+}
+
+.cap{
+    background:-webkit-linear-gradient(left, #9b2dbd, #4458dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    background-clip:none;
+}
+
+.counter-count > i{
+    font-size: 30px;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+
+
+/*##############footer############*/
+
+.footer_area{
+    padding: 5rem 0;
+    
+}
+
+.footer_area .social h5{
+    font: normal 500 23px/30px Cinzel-Regular;
+}
+
+.footer_area .social a >i{
+    font-size: 22px;
+    padding: 2rem;
+    color:#9b2dbd;
+}
+
+.footer_area .social a:hover>i{
+    color: cornflowerblue;
+}
